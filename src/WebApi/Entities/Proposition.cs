@@ -4,9 +4,9 @@
 
 namespace WebApi.Entities
 {
-    public readonly struct Proposition
+    public record Proposition
     {
         public Guid Id { get; init; }
-        public string Text { get; init; }
+        public string Text { get; init; } = String.Empty;
     }
 }
