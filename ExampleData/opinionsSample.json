@@ -1,0 +1,98 @@
+[
+    {
+        "Id": "55d6beb9-c32c-470e-bfbf-31532237b1da",
+        "Type": 0,
+        "Text": "Good idea!",
+        "PropositionId": "8a54dd08-5b50-484f-be58-c4a26142827a"
+    },
+    {
+        "Id": "a37aac20-157c-4ac3-b689-88e8900d2920",
+        "Type": 1,
+        "Text": "Agreed!",
+        "PropositionId": "8a54dd08-5b50-484f-be58-c4a26142827a"
+    },
+    {
+        "Id": "8d0e3be6-617b-40bf-9a40-2dbf2e2b2f6f",
+        "Type": 0,
+        "Text": "We could do this twice...",
+        "PropositionId": "8a54dd08-5b50-484f-be58-c4a26142827a"
+    },
+    {
+        "Id": "8c61a2f6-7b6e-4ceb-884a-27b5db8f919c",
+        "Type": 2,
+        "Text": "",
+        "PropositionId": "71fffae5-3aaf-49a0-8dbc-8593373bb25a"
+    },
+    {
+        "Id": "0af76e42-a192-4ab4-b775-fb61671d6b8e",
+        "Type": 0,
+        "Text": "",
+        "PropositionId": "71fffae5-3aaf-49a0-8dbc-8593373bb25a"
+    },
+    {
+        "Id": "536503c6-f65a-48c2-8fff-d9a087a9ef7b",
+        "Type": 0,
+        "Text": "Looking forward to that!",
+        "PropositionId": "71fffae5-3aaf-49a0-8dbc-8593373bb25a"
+    },
+    {
+        "Id": "9a8ae68f-97ca-45ab-8736-0c164d9773c8",
+        "Type": 2,
+        "Text": "No time to think about that.",
+        "PropositionId": "c4427f46-b3b4-423e-ba1f-f0c939b73227"
+    },
+    {
+        "Id": "2dc741a4-3adb-445a-a0cf-9ff84f5018fe",
+        "Type": 0,
+        "Text": "",
+        "PropositionId": "41e2cc9a-8385-4d42-aa57-be8a699ff426"
+    },
+    {
+        "Id": "41e2cc9a-8385-4d42-aa57-be8a699ff427",
+        "Type": 0,
+        "Text": "",
+        "PropositionId": "018302c0-b9a6-4991-8053-e1f8890d7f0d"
+    },
+    {
+        "Id": "12bc7d8d-48b1-48ee-ac4f-d60bc6332ae4",
+        "Type": 2,
+        "Text": "",
+        "PropositionId": "018302c0-b9a6-4991-8053-e1f8890d7f0d"
+    },
+    {
+        "Id": "0776e2e7-b62c-4ab7-9fa5-0d08dfbea05e",
+        "Type": 4,
+        "Text": "That does not correpond to our values",
+        "PropositionId": "018302c0-b9a6-4991-8053-e1f8890d7f0d"
+    },
+    {
+        "Id": "e15c56e7-bd83-4ca5-b361-067f10997785",
+        "Type": 5,
+        "Text": "We need to consider this and that.",
+        "PropositionId": "41e2cc9a-8385-4d42-aa57-be8a699ff426"
+    },
+    {
+        "Id": "9cdea258-f2ea-47f1-aba1-b157dfece738",
+        "Type": 0,
+        "Text": "I like it!",
+        "PropositionId": "8a54dd08-5b50-484f-be58-c4a26142827a"
+    },
+    {
+        "Id": "fcb62664-037d-43e6-8000-8a246a0aaf9f",
+        "Type": 1,
+        "Text": "Cool",
+        "PropositionId": "8a54dd08-5b50-484f-be58-c4a26142827a"
+    },
+    {
+        "Id": "70d7a8d3-4dd6-45da-966e-420cfd8b12aa",
+        "Type": 5,
+        "Text": "",
+        "PropositionId": "8a54dd08-5b50-484f-be58-c4a26142827a"
+    },
+    {
+        "Id": "8f6655d3-8986-42ef-80e8-116ca26bba0c",
+        "Type": 3,
+        "Text": "",
+        "PropositionId": "8a54dd08-5b50-484f-be58-c4a26142827a"
+    }
+]
