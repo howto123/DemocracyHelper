@@ -5,6 +5,7 @@
 
 
 notes.txt
+.env
 
 # User-specific files
 *.rsuser
