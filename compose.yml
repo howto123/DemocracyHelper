@@ -1,0 +1,13 @@
+
+
+services:
+  testserver:
+    image: nginx:latest
+    # environment:
+    #   - PORTMAPPING=$PORTMAPPING
+    ports:
+      - $PORTMAPPING
+
+
+
+
