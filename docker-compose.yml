@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-  testserver:
+  backend_test_server:
     image: nginx:latest
     # environment:
     #   - PORTMAPPING=$PORTMAPPING
