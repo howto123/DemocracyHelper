@@ -4,17 +4,29 @@
 
 Create a Volume:
 
-docker volume create DemocracyHelperDevDatabase
+docker volume create DemocracyHelperDatabaseDev
 
 
-Dockernetwork (docker network create S_to_Db):
+Create the dedicated network:
 
-docker run --rm --name democracyhelper_db -e POSTGRES_USER=democracyhelper -e POSTGRES_PASSWORD=mysecretpassword -e PGDATA=/var/lib/postgresql/data/pgdata -v DemocracyHelperDevDatabase:/var/lib/postgresql/data/pgdata -v DemocracyHelperDevDatabase:/var/lib/pgsql/data --network S_to_Db -d postgres:16
+docker network create Backend_to_Db
+
+
+Launch the container
+
+docker run --rm --name democracyhelper_db -e POSTGRES_USER=democracyhelper -e POSTGRES_PASSWORD=mysecretpassword -e PGDATA=/var/lib/postgresql/data/pgdata -v DemocracyHelperDatabaseDev:/var/lib/postgresql/data/pgdata --network Backend_to_Db -d postgres:16
 
 
 Port exposed to host:
 
 docker run --rm --name democracyhelper_db -e POSTGRES_USER=democracyhelper -e POSTGRES_PASSWORD=mysecretpassword -e PGDATA=/var/lib/postgresql/data/pgdata -v DemocracyHelperDevDatabase:/var/lib/postgresql/data/pgdata -p 5432:5432 -d postgres:16
+
+
+To Troubleshoot any docker network:
+
+docker run -it --net container:<container_name> nicolaka/netshoot
+
+ping democracyhelper_db
 
 <br/>
 
