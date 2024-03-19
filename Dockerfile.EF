@@ -1,0 +1,16 @@
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS ef
+
+RUN dotnet tool install --global dotnet-ef
+
+WORKDIR /WebApi
+COPY src/WebApi .
+
+# choose the database you need!
+RUN dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL -v 7
+RUN dotnet add package Microsoft.EntityFrameworkCore.Design -v 7
+
+CMD bash
+
+# set up env variable DB_STRING (the name matters as it is in the code as well)
+# dotnet ef migrations add InitialCreate
+# dotnet ef database update

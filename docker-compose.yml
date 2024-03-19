@@ -7,7 +7,13 @@ services:
     ports:
       - $PORTMAPPING
       
+    networks:
+      - created_before
 
+networks:
+  created_before:
+    name: Backend_to_Db
+    external: true
 
 
 
